@@ -28,9 +28,13 @@ Pinnies is currently in the early stages of development. The focus is on establi
 If you use `pinnies` in your research, please cite the following paper:
 
 ```bibtex
-@article{pinnies,
-  title={PINNIES: An Efficient Physics-Informed Neural Network Framework to Integral Operator Problems},
-  authors={Afzal Aghaei, Alireza and Movahedian Moghaddam, Mahdi and Parand, Kourosh},
+@misc{aghaei2024pinnies,
+  title={{PINNIES: An Efficient Physics-Informed Neural Network Framework to Integral Operator Problems}},
+  author={Afzal Aghaei, Alireza and Movahedian Moghaddam, Mahdi and Parand, Kourosh},
+  doi = {10.48550/ARXIV.2409.01899},
+  url = {https://arxiv.org/abs/2409.01899},
+  year = {2024},
+  publisher = {arXiv},
 }
 ```
 
