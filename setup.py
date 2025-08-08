@@ -15,5 +15,6 @@ setup(
     long_description_content_type="text/markdown",
     author="Alireza Afzal Aghaei",
     author_email="alirezaafzalaghaei@gmail.com",
-    license="MIT",
+    url="https://github.com/alirezaafzalaghaei/pinnies",
+    license="BSD",
 )
