@@ -1,7 +1,7 @@
 
-# PiNNIEs
+# PINNIES
 
-**PiNNIEs** is a Python package designed to solve mathematical problems that involve integral operators such as Fredholm, Volterra, or fractional derivatives using Physics-Informed Neural Networks (PINNs).
+**PINNIES** is a Python package designed to solve mathematical problems that involve integral operators such as Fredholm, Volterra, or fractional derivatives using Physics-Informed Neural Networks (PINNs).
 
 
 
