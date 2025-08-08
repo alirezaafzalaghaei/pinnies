@@ -1,0 +1,66 @@
+# mkdocs.yml
+
+# Project Information
+site_name: PINNIEs
+site_url: https://alirezaafzalaghaei.github.io/pinnies/ # Will be your site's URL
+site_author: Alireza Afzal Aghaei
+site_description: "A Python package to solve integral operator problems using Physics-Informed Neural Networks."
+
+# Repository
+repo_name: alirezaafzalaghaei/pinnies
+repo_url: https://github.com/alirezaafzalaghaei/pinnies
+edit_uri: "" # Hides the 'Edit on GitHub' button for simplicity
+
+# Theme Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Plugins
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: yes
+  - mkdocs-jupyter
+
+# Navigation Menu
+nav:
+  - Home: index.md
+  - Tutorial: tutorial.md  # <-- Point to the new Markdown file
+  - API Reference:
+      - Fredholm Solvers: api/fredholm.md
+      - Volterra Solvers: api/volterra.md
+      - Fractional Operators: api/fractional.md
+      - Base Classes: api/base.md
+
+# Markdown Extensions (for better rendering)
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+# JS files
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

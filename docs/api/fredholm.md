@@ -1,0 +1,3 @@
+# Fredholm Solvers
+
+::: pinnies.fredholm
