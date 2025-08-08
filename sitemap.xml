@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://alirezaafzalaghaei.github.io/pinnies/</loc>
+         <lastmod>2025-08-08</lastmod>
+    </url>
+    <url>
+         <loc>https://alirezaafzalaghaei.github.io/pinnies/tutorial/</loc>
+         <lastmod>2025-08-08</lastmod>
+    </url>
+    <url>
+         <loc>https://alirezaafzalaghaei.github.io/pinnies/api/base/</loc>
+         <lastmod>2025-08-08</lastmod>
+    </url>
+    <url>
+         <loc>https://alirezaafzalaghaei.github.io/pinnies/api/fractional/</loc>
+         <lastmod>2025-08-08</lastmod>
+    </url>
+    <url>
+         <loc>https://alirezaafzalaghaei.github.io/pinnies/api/fredholm/</loc>
+         <lastmod>2025-08-08</lastmod>
+    </url>
+    <url>
+         <loc>https://alirezaafzalaghaei.github.io/pinnies/api/volterra/</loc>
+         <lastmod>2025-08-08</lastmod>
+    </url>
+</urlset>
